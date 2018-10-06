@@ -1,0 +1,102 @@
+body,header,html,head,li,ul{
+    margin: 0;
+    padding: 0;
+}
+.firstNav{
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color:#2B0055 ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.firstNav td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: whitesmoke;
+	font-family: 'Averia Libre', cursive;
+}
+.firstNav td:hover{
+    background-color:#4abfff ;
+
+}
+.secondNav  {
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    color: whitesmoke;
+}
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.secondNav td{
+    text-align: center;
+    margin-left: 25px;
+    margin-right: 25px;
+	font-family: 'Quattrocento', serif;
+}
+
+.secondNav td:hover{
+    background-color: rgba(0,0,0,0.6);
+}
+
+
+#backgound{
+    background-image:url("../img/1433694923557472cbcf7ad95_18866.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.content{
+    width:100%;
+    height:100%;
+/*    border:2px solid yellow;*/
+    display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+h1{
+	
+	font-family: 'Raleway', sans-serif;
+	font-size: 50px;
+	color: whitesmoke;
+}
+.srilanka{
+	font-family: 'Merriweather', serif;
+	font-size: 60px;
+}
+.photos{
+	width: 100%;
+	height: 300px;
+    display: flex;
+	align-items: center;
+	justify-content: center;
+/*	border: 3px solid black;*/
+}
+#two{
+	padding-top: 200px;
+}
+#tree{
+	padding-top: 200px;
+}
+.bottom{
+	height: 200px;
+	width: 100%;
+}
+.bottom-min{
+	height: 100px;
+	width: 100%;
+}
+.footer{
+	width: 100%;
+	height: 600px;
+	background-color:#132024; 
+}
+
+
+
